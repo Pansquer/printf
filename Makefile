@@ -1,10 +1,10 @@
 NAME = libftprintf.a
-SRC = 					 	ft_get_flags.c \
-							ft_write_int.c \
-							ft_write_char.c \
-							ft_write_str.c \
-							ft_write_unsigned.c \
-							ft_printf.c\
+SRC = 					 	ft_conv.c \
+							 \
+							ft_put.c \
+							 \
+							 \
+							ft_printf.c \
 							
 OBJ = ${SRC:.c=.o}
 CC = gcc
